@@ -1,0 +1,135 @@
+/* styles for the body tag */
+body{
+    background: black;
+    color: snow;
+    
+}
+
+/* styles for the a(hyperlink) tag. the colour of the link was in blue colour since it is the default. */
+/* i have changed the link colour to green-cyan */
+a{
+    color: #009879 ;
+}
+
+/* styles for paragraph tag */
+
+p{
+    text-align: center;
+    font-size: 150%;
+}
+
+/* styling for name class */
+
+.name
+{
+    color: #009879;
+    font-size: 300%;
+    text-align: center;
+}
+
+/* styling for subheading class */
+
+.subheading
+{
+    color: #009879;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+
+/* styling for table */
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 120%;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+ .styled-table tbody tr.active-row { 
+    font-weight : bold;
+    color: #009879;
+}
+
+
+
+/* styling for lists */
+
+dl
+{
+    font-size: 120%;
+}
+
+ul
+{
+    font-size: 120%;
+}
+dt{
+    font-size: 120%;
+}
+
+/* this is written to display the technical skills in horizontal format */
+
+div#centerDiv {
+    width: 100%;
+    text-align: center;
+    
+}
+ul.centerUL {
+    margin: 2px auto;
+    line-height: 1.4;
+    padding-left: 0;
+}
+.centerUL li {
+    display: inline;
+    text-align: center;
+}
+
+
+/* styling for the top button */
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #009879;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+/* end of css file :) */
